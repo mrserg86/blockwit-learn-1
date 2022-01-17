@@ -9,6 +9,7 @@ import java.util.Scanner;
     public class s4t1 {
 
         public static void main(String[] args) {
+
             System.out.println(" Ваш год рождения? " + " Ваше имя? ");
 
             Scanner in = new Scanner(System.in);

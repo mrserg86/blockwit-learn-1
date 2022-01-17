@@ -5,21 +5,21 @@ package com.blockwit.learn1.mrserg86;
 
 import java.util.Scanner;
 
-    public class s4t2 {
+public class s4t2 {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            System.out.println("Введите 5 имён");
-            String[] names = new String[5];
-            Scanner scan = new Scanner(System.in);
-                for (int i = 0; i < names.length; i++) {
-                    names[i] = scan.nextLine();
-                }
-                for (int j = 0; j < names.length; j++) {
-                    System.out.println(names[j]);
-                }
-            scan.close();
-
+        System.out.println("Введите 5 имён");
+        String[] names = new String[5];
+        Scanner scan = new Scanner(System.in);
+        for (int i = 0; i < names.length; i++) {
+            names[i] = scan.nextLine();
         }
+        for (int j = 0; j < names.length; j++) {
+            System.out.println(names[j]);
+        }
+        scan.close();
 
     }
+
+}
