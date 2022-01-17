@@ -5,12 +5,21 @@ package com.blockwit.learn1.mrserg86;
 
 import java.util.Scanner;
 
-    public class s4t3 {
+public class s4t3 {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-        int[] temperatures = new[3];
-
+        double summOfTemperatures = 0;
+        double averageTemperature = 0;
+        Scanner scan = new Scanner(System.in);
+        for (int i = 1; i < 4; i++) {
+            System.out.println("Введите температуру " + i + "-го дня");
+            summOfTemperatures = summOfTemperatures + scan.nextDouble();
+            averageTemperature = summOfTemperatures / i;
         }
+        System.out.println("Средняя температура за 3 дня: " + averageTemperature);
+
 
     }
+
+}
