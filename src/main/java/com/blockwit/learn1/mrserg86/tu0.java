@@ -10,10 +10,9 @@ package com.blockwit.learn1.mrserg86;
 
         public static void main(String[] args) {
 
+            Helper helper = new Helper();
             int[] array = {12, 7, 89, -4, 8, 9};
-            for (int i = 0; i < array.length; i++) {
-                System.out.println(array[i]);
-            }
+            helper.printIntArray(array);
             boolean changed = false;
             boolean isFirstIteration = true;
             while (changed || isFirstIteration) {
@@ -27,11 +26,8 @@ package com.blockwit.learn1.mrserg86;
                         changed = true;
 
                     }
-
                 }
             }
-            for(int i = 0; i < array.length; i++) {
-                System.out.println(array[i]);
-            }
+            helper.printIntArray(array);
         }
     }
