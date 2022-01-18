@@ -21,7 +21,7 @@ import java.util.Scanner;
                 numbers[numbers.length-1] = numbers[0];
                 numbers[0] = tempNumber;
             }
-            for(int i = 0; i < numbers.length; i++) {
+            for (int i = 0; i < numbers.length; i++) {
                 System.out.println(numbers[i]);
             }
         }
