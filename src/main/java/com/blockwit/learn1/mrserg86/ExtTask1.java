@@ -5,7 +5,9 @@ package com.blockwit.learn1.mrserg86;
         public static void main(String[] args) {
 
             WordsHelper wordsHelper = new WordsHelper();
-            System.out.println(wordsHelper.printRubleWord(11));
+            for(int i = 1; i <= 1000; i++) {
+                System.out.println(i +" " + wordsHelper.printRubleWord(i));
+            }
 
         }
 
