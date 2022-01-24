@@ -15,9 +15,11 @@ package com.blockwit.learn1.mrserg86;
                 helper.printIntArray(num1);
                 helper.printIntArray(num2);
                 int[] num3 = new int[num1.length + num2.length];
-                for(int i = 0; i < num1.length; i = i+2) {
-
+                for(int i = 0; i < num3.length; i = i+2) {
+                    num3[i] = num1[i/2];
+                    num3[i+1] = num2[i/2];
                 }
+                helper.printIntArray(num3);
 
             }
 
