@@ -12,6 +12,8 @@ package com.blockwit.learn1.mrserg86;
             Helper helper = new Helper();
             int[] num1 = {9,1,5,6,8};
             int[] num2 = {7,3,1};
+            helper.printIntArray(num1);
+            helper.printIntArray(num2);
             int[] num3 = new int[num1.length + num2.length];
             for(int i = 0; i < num1.length; i++) {
                 num3[i] = num1[i];
