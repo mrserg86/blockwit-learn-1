@@ -16,8 +16,8 @@ public class TaskS7T3 {
             Helper helper = new Helper();
             int[] num1 = {7,4,2,8,6,7};
             int[] num2 = {6,2,9};
-            //helper.printIntArray(num1);
-            //helper.printIntArray(num2);
+            helper.printIntArray(num1);
+            helper.printIntArray(num2);
             int[] num3 = new int[num1.length + num2.length];
             int difference = abs(num1.length - num2.length);
             if(num1.length > num2.length) {
