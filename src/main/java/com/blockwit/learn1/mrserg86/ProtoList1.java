@@ -7,9 +7,7 @@
 
 package com.blockwit.learn1.mrserg86;
 
-    public class TaskS7T4 {
-
-        public class ProtoList1{
+    public class ProtoList1{
 
             int[] array;
 
@@ -21,10 +19,10 @@ package com.blockwit.learn1.mrserg86;
             public int getSize() {
                 return array.length;
             }
+
             public int get(int i) {
                 return array[i];
             }
 
         }
 
-    }
