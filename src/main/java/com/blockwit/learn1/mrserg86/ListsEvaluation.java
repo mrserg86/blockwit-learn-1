@@ -15,7 +15,7 @@ public class ListsEvaluation {
             list.add(ran.nextInt());
         }
         Date finish = new Date();
-        System.out.println(start.getTime() - finish.getTime());
+        System.out.println(finish.getTime() - start.getTime());
     }
 
 }
