@@ -6,7 +6,7 @@
 
 package com.blockwit.learn1.mrserg86;
 
-public class MyIntArrayList {
+public class MyIntArrayList implements IMyList {
 
     private int count = 0;
     private int[] elements = new int[3];
@@ -15,7 +15,7 @@ public class MyIntArrayList {
         elements[count] = nextElementOfCollection;
         count++;
         if (count == elements.length - 1) {
-            int[] elements1 = new int[elements.length + 2];
+            int[] elements1 = new int[elements.length + 1000000];
             for (int k = 0; k <= elements.length - 1; k++) {
                 elements1[k] = elements[k];
             }
