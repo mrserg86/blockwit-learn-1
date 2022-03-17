@@ -13,6 +13,10 @@ public class Book {
         this.name = name;
         this.ISBN = ISBN;
     }
+    public String getName() {
+        return name;
+    }
+
     public int getISBN() {
         return ISBN;
     }
